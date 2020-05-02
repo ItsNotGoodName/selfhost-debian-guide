@@ -3,7 +3,13 @@ Do this first
 <https://docs.gitea.io/en-us/install-from-binary/>
 Then this
 <https://docs.gitea.io/en-us/linux-service/>
-
+### Notes
+- Uncomment mariadb in the systemd service file
+- Do The following commands to set readonly to gitea files when done
+```
+chmod 750 /etc/gitea
+chmod 640 /etc/gitea/app.ini
+```
 ## Create Database
 
 Remember to change password.

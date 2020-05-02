@@ -8,7 +8,7 @@ This guides explains how to host the following applications in no particular ord
 - ~~Paperless~~
 - ~~TheLounge~~
 - ~~Stikked~~
-- ~~Gitea~~
+- Gitea
 - ~~CalibreWeb~~
 - Bookstack
 - ~~CyberChef~~
@@ -26,3 +26,4 @@ The server will use nginx as a reverse proxy and MariaDB as the database. Along 
 - ~~seafile~~
 - heimdall
 - bookstack
+- gitea
