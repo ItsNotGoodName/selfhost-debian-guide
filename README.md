@@ -6,7 +6,7 @@ This guides explains how to host the following applications in no particular ord
 - heimdall
 - ~~Seafile~~
 - ~~Paperless~~
-- ~~TheLounge~~
+- TheLounge
 - ~~Stikked~~
 - Gitea
 - ~~CalibreWeb~~
@@ -27,3 +27,4 @@ The server will use nginx as a reverse proxy and MariaDB as the database. Along 
 - heimdall
 - bookstack
 - gitea
+- thelounge
