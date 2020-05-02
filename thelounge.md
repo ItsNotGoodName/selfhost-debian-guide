@@ -9,7 +9,7 @@ systemctl start thelounge
 systemctl enable thelounge
 systemctl status thelounge
 ```
-
+In `/etc/thelounge/config.js` set the variable to this `reverseProxy: true,`
 ## Nginx Configuration
 `/etc/nginx/conf.d/thelounge.example.com.conf`
 ```
