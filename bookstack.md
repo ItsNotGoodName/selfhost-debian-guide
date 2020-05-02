@@ -7,7 +7,7 @@ apt install php php-cli php-zip php-json curl php-fpm php-curl php-mbstring php-
 ```
 
 ## Create database
-
+Remember to change password.
 ```
 mysql
 CREATE DATABASE bookstack;
@@ -27,7 +27,7 @@ cp .env.example .env
 vim .env
 ```
 
-Configure .env to have mysql configuration
+Configure .env to have the following mysql configuration.
 
 ```
 # Database details
@@ -86,7 +86,7 @@ server {
 ```
 ## Active Directory Configuration
 
-I change `LDAP_REMOVE_FROM_GROUPS` to true and `LDAP_REMOVE_FROM_GROUPS` to false when I am done configuraing. 
+I change `LDAP_REMOVE_FROM_GROUPS` to `true` and `LDAP_REMOVE_FROM_GROUPS` to `false` when I am done configuring. 
 
 `/opt/bookstack/.env`
 ```
