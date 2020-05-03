@@ -20,10 +20,10 @@ The server will use nginx as a reverse proxy and MariaDB as the database. Along 
 
 - debian
 - certbot
-- nginx
 - mariadb
-- php
 - ~~seafile~~
+- nginx
+- php
 - heimdall
 - bookstack
 - gitea
