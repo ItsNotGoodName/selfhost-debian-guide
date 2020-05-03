@@ -28,4 +28,4 @@ The server will use nginx as a reverse proxy and MariaDB as the database. Along 
 - bookstack
 - gitea
 - thelounge
-- Wallabag
+- wallabag
