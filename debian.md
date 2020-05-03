@@ -2,7 +2,7 @@
 
 Go to <https://www.debian.org/distrib/netinst> and download by clicking on 'Small CDs or USB sticks'.
 
-Boot to your iso and begin your install. Set install tools to ssh server and basic utils.
+Boot to your iso and begin your install. Set software selection to SSH Server and standard system utilities.
 
 After installation, login as root.
 
@@ -13,10 +13,13 @@ apt update
 apt update upgrade
 apt install vim wget git
 ```
+
 ## Configure Path
+
 ```
 echo "PATH=/usr/sbin:$PATH" >> ~/.profile
 ```
+
 ## SSH Configuration
 
 Copy your ssh public key to the server.
